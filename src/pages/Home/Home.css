@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+
+.Home-container {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ), url('https://i.pinimg.com/originals/d8/f9/25/d8f925ff7845af34d7520e2e5afdf00f.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.side-container {
+    background-color: rgb(121, 93, 57);
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 3rem;
+}
+.side-container h1 {
+    text-align: start;
+    margin-top: 10rem;
+}
+.side-container p {
+    text-align: start;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 16px;
+}
+.high-quality {
+    padding: 20px;
+    margin-top: 6rem;
+    border-radius: 7px;
+    background-color: #fff;
+    color: rgb(121, 93, 57);
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+}
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 7rem;
+    font-family: 'Poppins', sans-serif;
+}
+.feature-container{
+    /*border: 2px solid #000;*/
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.feature-1 {
+    width: 370px;
+    height: 500px;
+}
+.feature-2 {
+    width: 370px;
+    height: 500px;
+}
+.feature-3 {
+    width: 370px;
+    height: 500px;
+}
+
+.feature-1 .feature-1-img {
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/10/takeout-food-service-take-out.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+}
+.feature-1 .feature-1-text {
+    padding: 20px 0 0 0;
+}
+.feature-1 .feature-1-text h2 {
+    font-size: 20px;
+    
+}
+.feature-1 .feature-1-text p {
+    font-size: 14.5px;
+    color: rgba(0, 0, 0, 0.685);
+    
+}.feature-1 .feature-1-text span {
+    font-size: 14.5px;
+    color: green;
+}
+
+
+.feature-2 .feature-2-img {
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/disposable-bags.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+}
+.feature-2 .feature-2-text {
+    padding: 20px 0 0 0;
+}
+.feature-2 .feature-2-text h2 {
+    font-size: 20px;
+    
+}
+.feature-2 .feature-2-text p {
+    font-size: 14.5px;
+    color: rgba(0, 0, 0, 0.685);
+    
+}.feature-2 .feature-2-text span {
+    font-size: 14.5px;
+    color: green;
+}
+
+
+.feature-3 .feature-3-img {
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/food-packaging-wrap.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+}
+.feature-3 .feature-3-text {
+    padding: 20px 0 0 0;
+}
+.feature-3 .feature-3-text h2 {
+    font-size: 20px;
+    
+}
+.feature-3 .feature-3-text p {
+    font-size: 14.5px;
+    color: rgba(0, 0, 0, 0.685);
+    
+}.feature-3 .feature-3-text span {
+    font-size: 14.5px;
+    color: green;
+}
+
+/* feature container second roll */
+
+.feature-container-2{
+    /*border: 2px solid #000;*/
+    width: 90%;
+    height: 80vh;
+    margin: 3rem auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.feature-container-2 .feature-1 {
+    width: 370px;
+    height: 500px;
+}
+.feature-container-2 .feature-2 {
+    width: 370px;
+    height: 500px;
+}
+.feature-container-2 .feature-3 {
+    width: 370px;
+    height: 500px;
+}
+
+.feature-container-2 .feature-1 .feature-1-img {
+    background-image: url('https://www.lavanguardia.com/files/og_thumbnail/uploads/2020/06/08/5ede21e26c137.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+}
+.feature-container-2 .feature-1 .feature-1-text {
+    padding: 20px 0 0 0;
+}
+.feature-container-2.feature-1 .feature-1-text h2 {
+    font-size: 20px;
+    
+}
+.feature-container-2 .feature-1 .feature-1-text p {
+    font-size: 14.5px;
+    color: rgba(0, 0, 0, 0.685);
+    
+}
+.feature-container-2 .feature-1 .feature-1-text span {
+    font-size: 14.5px;
+    color: green;
+}
+
+
+.feature-container-2 .feature-2 .feature-2-img {
+    background-image: url('https://i5.walmartimages.com/asr/11b42486-e431-4dee-8a1b-8d7f7d1f40f4.04f32b42a9c5e975d1316b9c6417dfc2.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+}
+.feature-container-2.feature-2 .feature-2-text {
+    padding: 20px 0 0 0;
+}
+.feature-container-2 .feature-2 .feature-2-text h2 {
+    font-size: 20px;
+    
+}
+.feature-container-2 .feature-2 .feature-2-text p {
+    font-size: 14.5px;
+    color: rgba(0, 0, 0, 0.685);
+    
+}
+.feature-container-2 .feature-2 .feature-2-text span {
+    font-size: 14.5px;
+    color: green;
+}
+
+
+.feature-container-2 .feature-3 .feature-3-img {
+    background-image: url('https://english.nna.jp/uploads/english_article_image/image/21716/show_image-1604462808845.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45%;
+    border-radius: 5px;
+}
+.feature-container-2 .feature-3 .feature-3-text {
+    padding: 20px 0 0 0;
+}
+.feature-container-2 .feature-3 .feature-3-text h2 {
+    font-size: 20px;
+    
+}
+.feature-container-2 .feature-3 .feature-3-text p {
+    font-size: 14.5px;
+    color: rgba(0, 0, 0, 0.685);
+    
+}
+.feature-container-2 .feature-3 .feature-3-text span {
+    font-size: 14.5px;
+    color: green;
+}
+
+
+/* other products */ 
+
+.other-product-header {
+    margin-top: 8rem;
+}
+/*.other-product-header p {
+    border: 2px solid blue;
+    position: absolute;
+    right: 70px;
+    bottom: -1380px;
+    padding: 10px 50px;
+    border-radius: 50px 0 0 50px;
+}*/
+.other-products {
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.more-info-container {
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+    background-color: rgb(121, 93, 57);
+    border-radius: 5px;
+    color: #fff;
+}
+.more-info-container h3 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.911);
+}
+.more-info-container p {
+    font-size: 14px;
+    margin-top: 1rem;
+    line-height: 1.8rem;
+    color: rgba(255, 255, 255, 0.719);
+}
+.other-product-container {
+   /* border: 2px solid rgb(255, 0, 0);*/
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+.first-role {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.product-1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 1.5rem;
+    background-image: url('https://atlaslabels.com/wp-content/uploads/2013/09/6PackHalligan.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-1:hover {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://m.media-amazon.com/images/I/41v4BHYoIqL._AC_SX466_.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 500ms;
+}
+.product-2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 1.5rem;
+    background-image: url('https://m.media-amazon.com/images/I/41v4BHYoIqL._AC_SX466_.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-3 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 1.5rem;
+    background-image: url('https://www.brenmarco.com/wp-content/uploads/2020/10/disposable-plastic-sanwich-container-260734-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-role {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.product-4 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 1.5rem;
+    background-image: url('https://cdnimg.webstaurantstore.com/images/products/large/88631/668826.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-5 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 1.5rem;
+    background-image: url('https://www.brenmarco.com/wp-content/uploads/2020/10/rotisserie-chicken-takeout-container-260231.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-6 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 1.5rem;
+    background-image: url('https://cdnimg.webstaurantstore.com/images/products/large/88631/668826.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer-container {
+    width: 100%;
+    height: 55vh;
+    background-color: #000;
+    margin-top: 10rem;
+}
+.footer-container-2 {
+    width: 77%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-container-2 .services {
+    width: 230px;
+    height: 100%;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+.footer-container-2 .services p {
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 14px;
+}
+.footer-container-2 .about {
+    width: 230px;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-container-2 .about p {
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 14px;
+}
+.footer-container-2 .contact-us {
+    width: 230px;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-container-2 .contact-us p {
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 14px;
+}
+.footer-container-2 .privacy {
+    width: 230px;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-container-2 .privacy p {
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 14px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+    margin-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.356);
+    width: 80%;
+    margin: 3rem auto 0 auto;
+    padding-top: 2rem;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
