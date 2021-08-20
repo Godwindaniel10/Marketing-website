@@ -318,17 +318,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.product-1:hover {
-    width: 100%;
-    height: 100%;
-    background-image: url('https://m.media-amazon.com/images/I/41v4BHYoIqL._AC_SX466_.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-    transform: scale(1);
-    transition: all 500ms;
-}
+
 .product-2 {
     width: 100%;
     height: 100%;
