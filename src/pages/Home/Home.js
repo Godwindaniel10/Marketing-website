@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 
 const Home = () => {
+
     return (
         <>
         <div className="Home-container">
@@ -97,24 +98,24 @@ const Home = () => {
                        <div className="first-role">
                       
                             <div className="product-1">
-                                
+                                <h2 className="header">Lorem Ipsum</h2>
                             </div>
                             <div className="product-2">
-                            
+                            <h2 className="header">Lorem Ipsum</h2>
                             </div>
                             <div className="product-3">
-                            
+                                <h2 className="header">Lorem Ipsum</h2>
                              </div>
                         </div>
                         <div className="second-role">
                             <div className="product-4">
-                               
+                                <h2 className="header">Lorem Ipsum</h2>
                             </div>
                             <div className="product-5">
-                               
+                                <h2 className="header">Lorem Ipsum</h2>
                             </div>
                             <div className="product-6">
-                              
+                                <h2 className="header">Lorem Ipsum</h2>
                             </div>
                         </div>
                     </div>
