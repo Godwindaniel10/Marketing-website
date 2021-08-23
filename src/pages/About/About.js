@@ -7,18 +7,20 @@ const about = () => {
         <>
         <div className="About-container">
            <div className="about-intro">
-               <h1>What We Do</h1>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex atque dicta minima inventore nesciunt, fuga nemo. Magni, dolorum voluptates. Voluptate porro voluptatibus commodi nobis!</p>
+               <h1>Dedicated Teams.</h1>
+               <h1>For Your Dedicated Needs.</h1>
            </div>
            <div className="about-header-img"></div>
            <div className="about-intro-container-2">
                <div className="about-1">
                    <h1>What We Do</h1>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, molestiae? Non dicta vel doloremque, dolor laudantium dolorum! Quibusdam ratione et voluptatem quod? Doloribus ea repellendus voluptatum commodi. Nostrum ipsa adipisci delectus totam!</p>
+                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum iure quia illo? Perspiciatis, molestiae itaque, voluptate maiores ut ab odio vero, illum blanditiis consequuntur quia.
+                       <button className="high-quality">Get In Touch</button>
+                   </p>
                </div>
                <div className="about-2">
-                   <h1>What We Do</h1>
-                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, quos totam sint iure quas exercitationem quod nobis perspiciatis sapiente vitae aperiam nulla eum blanditiis. Deserunt voluptates temporibus autem dolorem impedit!</p>
+                   <h1>Why We Do This</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sunt vitae minima et asperiores saepe dolorum porro distinctio soluta nesciunt!</p>
                </div>
            </div>
            
