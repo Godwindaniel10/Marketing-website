@@ -13,9 +13,35 @@
 .header-container {
     border: 2px solid #000;
     width: 100%;
-    height: 70vh;
+    height: 470px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7rem;
+    background-color: #fff;
 }
 
+.box1 {
+    width: 370px;
+    height: 220px;
+    padding: 20px;
+    border: 2px solid #000;
+    /*margin-left: 2rem;*/
+}
+.box1 h1 {
+    font-size: 25px;
+    color: rgb(121, 93, 57);
+    font-weight: 600;
+}
+.box1 p {
+    line-height: 1.8rem;
+}
+.contact-form {
+    border: 2px solid #000;
+    width: 370px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+}
 
 
 .map-section {
