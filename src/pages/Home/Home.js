@@ -8,7 +8,7 @@ const Home = () => {
             <div className="side-container">
                 <h1>Disposable Food Packaging Supplies</h1>
                 <p>Package and Deliver Take-Out Items with Disposable Food Packaging Supplies</p>
-                <div className="high-quality">We guarantee high quality at the lowest costs for our food packaging.</div>
+                <button className="high-quality">Get In Touch</button>
             </div>
         </div>
         <div className="main-container">
