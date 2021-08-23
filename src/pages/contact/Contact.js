@@ -3,9 +3,15 @@ import './contact.css';
 
 const contact = () => {
     return (
-        <div className="contact-container">
-            <h1 className="text-center" style={{paddingTop: "30%"}}>Contact</h1>
-        </div>
+        <>
+           <div className="contact-container">
+              <div className="header-container">
+                  <div className="box1"></div>
+                  <div className="contact-form"></div>
+              </div>
+              <div className="map-section"></div>
+           </div>
+        </>
     )
 }
 
