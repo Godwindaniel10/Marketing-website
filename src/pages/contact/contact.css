@@ -34,14 +34,16 @@
     line-height: 1.8rem;
 }
 .contact-form {
-    border: 2px solid #000;
     width: 370px;
-    height: 500px;
+    height: 520px;
     background-color: #fff;
     border-radius: 20px;
     z-index: 1;
     padding: 30px;
     color: rgb(121, 93, 57);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(121, 93, 57, 0.44);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(121, 93, 57, 0.44);
+    box-shadow:         0px 0px 5px 0px rgba(121, 93, 57, 0.44);
 }
 .contact-form h1 {
     font-size: 22px;
@@ -100,5 +102,38 @@ form input[type="submit"] {
 .others {
     font-size: 13px;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
+}
+.social-media-icons {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.social-media-icons .facebook {
+    width: 50px;
+    height: auto;
+    text-align: center;
+}
+.social-media-icons .facebook i {
+    font-size: 18px;
+}
+.social-media-icons .twitter {
+    width: 50px;
+    height: auto;
+    text-align: center;
+}
+.social-media-icons .twitter i {
+    font-size: 18px;
+}
+.social-media-icons .instagram {
+    width: 50px;
+    height: auto;
+    text-align: center;
+}
+.social-media-icons .instagram i {
+    font-size: 18px;
 }

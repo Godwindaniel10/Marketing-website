@@ -20,7 +20,7 @@ const contact = () => {
                       </span>
                   </div>
                   <div className="contact-form">
-                      <h1>Say To Us</h1>
+                      <h1>Say Something ...</h1>
                       <form action="">
                           <div className="fname-and-lname-container">
                              <input type="text" name="firstName" id="firstName" placeholder="First Name*" />
@@ -36,9 +36,9 @@ const contact = () => {
                       </form>
                       <p className="others">or use your social media for personal chat. </p>
                       <div className="social-media-icons">
-                          <span className="facebook"></span>
-                          <span className="twitter"></span>
-                          <span className="instagram"></span>
+                          <div className="facebook"><i className="fab fa-facebook-f"></i></div>
+                          <div className="twitter"><i class="fab fa-twitter"></i></div>
+                          <div className="instagram"><i class="fab fa-instagram"></i></div>
                       </div>
                   </div>
               </div>
