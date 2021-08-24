@@ -32,7 +32,7 @@ const contact = () => {
                           <input type="email" name="email" id="email" placeholder="Email*"/><br /><br />
                           <input type="text" name="suggestion" id="suggestion" className="suggestion" placeholder="Suggestion*"/>
                           <br />
-                          <input type="submit" value="submit" />
+                          <input type="submit" value="Send" />
                       </form>
                       <p className="others">or use your social media for personal chat. </p>
                       <div className="social-media-icons">

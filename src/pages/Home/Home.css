@@ -3,17 +3,106 @@
 
 
 .Home-container {
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.45), 
-        rgba(0, 0, 0, 0.45)
-      ), url('https://i.pinimg.com/originals/d8/f9/25/d8f925ff7845af34d7520e2e5afdf00f.jpg');
-    background-position: center;
-    background-size: cover;
-    
     width: 100%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.grid-container {
+    width: 90%;
+    height: 465.5px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-container {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.left-container .image1 {
+    border: 10px solid rgb(121, 93, 57);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10rem;
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/disposable-retail-packaging.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-container .image2 {
+    border: 10px solid rgb(121, 93, 57);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url('https://www.roshpack.com/image/cache/catalog/products/Pizza%20Box/13x13x1.5-Generic-Large-Pizza-Box-Brown-Box-270x270.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-container .image3 {
+    border: 10px solid rgb(121, 93, 57);
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30rem;
+    background-image: url('//cdnimg.webstaurantstore.com/uploads/images/2019/8/tin-tie-bags.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-container .image4 {
+    border: 10px solid rgb(121, 93, 57);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20rem;
+    bottom: 7rem;
+    background-image: url('https://www.dhresource.com/260x260/f2/albu/g10/M00/80/F9/rBVaWV33T4uAA954AALyTDK0hnU205.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-container .image5 {
+    border: 10px solid rgb(121, 93, 57);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30rem;
+    bottom: 14rem;
+    background-image: url('https://ae01.alicdn.com/kf/H7c91c61af45f4741a8c2e9946bba1f26I/50pcs-High-quality-black-disposable-coffee-cup-280ml-400ml-500ml-milk-tea-soy-juice-drinking-packaging.jpg_Q90.jpg_.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-container .image6 {
+    border: 10px solid rgb(121, 93, 57);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15rem;
+    background-image: url('https://i.pinimg.com/originals/fa/c8/36/fac836867fd1bc4a3ebf2c3d724bf88e.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right-container {
+    border: 2px solid #000;
+    width: 40%;
+    height: 100%;
+}
+
 
 .side-container {
     background-color: rgb(121, 93, 57);

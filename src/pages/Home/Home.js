@@ -5,11 +5,22 @@ const Home = () => {
     return (
         <>
         <div className="Home-container">
-            <div className="side-container">
+            <div className="grid-container">
+                <div className="left-container">
+                    <div className="image1"></div>
+                    <div className="image2"></div>
+                    <div className="image3"></div>
+                    <div className="image4"></div>
+                    <div className="image5"></div>
+                    <div className="image6"></div>
+                </div>
+                <div className="right-container"></div>
+            </div>
+            {/*<div className="side-container">
                 <h1>Disposable Food Packaging Supplies</h1>
                 <p>Package and Deliver Take-Out Items with Disposable Food Packaging Supplies</p>
                 <button className="high-quality">Get In Touch</button>
-            </div>
+               </div>*/}
         </div>
         <div className="main-container">
             <div className="feature-container">
