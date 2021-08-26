@@ -101,7 +101,7 @@
     width: 40%;
     height: 90%;
     background-color: rgb(121, 93, 57);
-    border-radius: 20px;
+    border-radius: 25px 25px 25px 0;
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -133,10 +133,11 @@
     /*background-color: rgb(121, 93, 57);*/
     padding-top: 7rem;
     font-family: 'Poppins', sans-serif;
+    padding: 7rem 5rem 0 5rem;
 }
 .feature-container{
-    width: 90%;
-    height: 1000px;
+    width: 100%;
+    height: 1250px;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     display: grid;
@@ -145,12 +146,15 @@
 }
 .feature-container .features {
     /*border: 2px solid rgb(6, 235, 25);*/
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 25px 25px 25px 0;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(121, 93, 57, 0.44);
     -moz-box-shadow:    0px 0px 5px 0px rgba(121, 93, 57, 0.44);
     box-shadow:         0px 0px 5px 0px rgba(121, 93, 57, 0.44);
     background-color: rgb(121, 93, 57);
 }
+
+/* features 1 */
 
 .features .feature-1-img {
     background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/10/takeout-food-service-take-out.jpg');
@@ -158,192 +162,184 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 45%;
-    border-radius: 20px;
+    height: 250px;
+    border-radius: 25px;
 }
-.feature-1 .feature-1-text {
+.features .feature-1-text {
     padding: 20px 0 0 0;
+    color: #fff;
 }
-.feature-1 .feature-1-text h2 {
+.features .feature-1-text h2 {
     font-size: 20px;
-    
+    color: #fff;
 }
-.feature-1 .feature-1-text p {
+.features .feature-1-text p {
     font-size: 14.5px;
-    color: rgba(0, 0, 0, 0.685);
+    color: rgba(255, 255, 255, 0.685);
     
-}.feature-1 .feature-1-text span {
+}.features .feature-1-text span {
     font-size: 14.5px;
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
 
-.feature-2 .feature-2-img {
+/* features 2 */
+
+.features .feature-2-img {
     background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/disposable-bags.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 45%;
-    border-radius: 5px;
+    height: 250px;
+    border-radius: 25px;
 }
-.feature-2 .feature-2-text {
+.features .feature-2-text {
     padding: 20px 0 0 0;
 }
-.feature-2 .feature-2-text h2 {
-    font-size: 20px;
-    
+.features .feature-2-text h2 {
+    font-size: 20px;    
+    color: #fff;
 }
-.feature-2 .feature-2-text p {
+.features .feature-2-text p {
     font-size: 14.5px;
-    color: rgba(0, 0, 0, 0.685);
+    color: rgba(255, 255, 255, 0.685);
     
-}.feature-2 .feature-2-text span {
+}.features .feature-2-text span {
     font-size: 14.5px;
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
 
-.feature-3 .feature-3-img {
+/* features 3 */
+
+.features .feature-3-img {
     background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/food-packaging-wrap.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 45%;
-    border-radius: 5px;
+    height: 250px;
+    border-radius: 25px;
 }
-.feature-3 .feature-3-text {
+.features .feature-3-text {
     padding: 20px 0 0 0;
 }
-.feature-3 .feature-3-text h2 {
+.features .feature-3-text h2 {
     font-size: 20px;
-    
+    color: #fff;
 }
-.feature-3 .feature-3-text p {
+.features .feature-3-text p {
     font-size: 14.5px;
-    color: rgba(0, 0, 0, 0.685);
+    color: rgba(255, 255, 255, 0.685);
     
-}.feature-3 .feature-3-text span {
+}.features .feature-3-text span {
     font-size: 14.5px;
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
-/* feature container second roll *
+/* features 4 */
 
-.feature-container-2{
-    width: 90%;
-    height: 80vh;
-    margin: 3rem auto 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-}
-.feature-container-2 .feature-1 {
-    width: 370px;
-    height: 500px;
-}
-.feature-container-2 .feature-2 {
-    width: 370px;
-    height: 500px;
-}
-.feature-container-2 .feature-3 {
-    width: 370px;
-    height: 500px;
-}
-
-.feature-container-2 .feature-1 .feature-1-img {
+.features .feature-4-img {
     background-image: url('https://www.lavanguardia.com/files/og_thumbnail/uploads/2020/06/08/5ede21e26c137.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 45%;
-    border-radius: 5px;
+    height: 250px;
+    border-radius: 25px;
 }
-.feature-container-2 .feature-1 .feature-1-text {
+.features .feature-4-text {
     padding: 20px 0 0 0;
 }
-.feature-container-2.feature-1 .feature-1-text h2 {
+.features .feature-4-text h2 {
     font-size: 20px;
-    
+    color: #fff;
 }
-.feature-container-2 .feature-1 .feature-1-text p {
+.features .feature-4-text p {
     font-size: 14.5px;
-    color: rgba(0, 0, 0, 0.685);
+    color: rgba(255, 255, 255, 0.685);
     
-}
-.feature-container-2 .feature-1 .feature-1-text span {
+}.features .feature-4-text span {
     font-size: 14.5px;
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
+/* features 5 */
 
-.feature-container-2 .feature-2 .feature-2-img {
+.features .feature-5-img {
     background-image: url('https://i5.walmartimages.com/asr/11b42486-e431-4dee-8a1b-8d7f7d1f40f4.04f32b42a9c5e975d1316b9c6417dfc2.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 45%;
-    border-radius: 5px;
+    height: 250px;
+    border-radius: 25px;
 }
-.feature-container-2.feature-2 .feature-2-text {
+.features .feature-5-text {
     padding: 20px 0 0 0;
 }
-.feature-container-2 .feature-2 .feature-2-text h2 {
+.features .feature-5-text h2 {
     font-size: 20px;
-    
+    color: #fff;
 }
-.feature-container-2 .feature-2 .feature-2-text p {
+.features .feature-5-text p {
     font-size: 14.5px;
-    color: rgba(0, 0, 0, 0.685);
+    color: rgba(255, 255, 255, 0.685);
     
-}
-.feature-container-2 .feature-2 .feature-2-text span {
+}.features .feature-5-text span {
     font-size: 14.5px;
-    color: green;
+    color: rgb(0, 0, 0);
 }
 
 
-.feature-container-2 .feature-3 .feature-3-img {
+/* features 6 */
+
+.features .feature-6-img {
     background-image: url('https://english.nna.jp/uploads/english_article_image/image/21716/show_image-1604462808845.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 45%;
-    border-radius: 5px;
+    height: 250px;
+    border-radius: 25px;
 }
-.feature-container-2 .feature-3 .feature-3-text {
+.features .feature-6-text {
     padding: 20px 0 0 0;
 }
-.feature-container-2 .feature-3 .feature-3-text h2 {
+.features .feature-6-text h2 {
     font-size: 20px;
-    
+    color: #fff;
 }
-.feature-container-2 .feature-3 .feature-3-text p {
+.features .feature-6-text p {
     font-size: 14.5px;
-    color: rgba(0, 0, 0, 0.685);
+    color: rgba(255, 255, 255, 0.747);
     
-}
-.feature-container-2 .feature-3 .feature-3-text span {
+}.features .feature-6-text span {
     font-size: 14.5px;
-    color: green;
+    color: rgb(0, 0, 0);
 }
-*/
+
+
+
 
 /* other products */ 
 
-.other-product-header {
+.other-product-header p {
     margin-top: 8rem;
+    border: 2px solid #000;
+    display: inline-block;
+    background: #000;
+    border-radius: 0 50px 50px 0;
+    font-size: 18px;
+    color: #FFF;
+    padding: 10px 70px;
 }
 
 .other-products {
-    width: 90%;
+    width: 100%;
     height: 450px;
-    margin: 0 auto 10rem auto;
+    margin: 5rem auto 10rem auto;
     display: flex;
     justify-content: space-between;
 }

@@ -29,14 +29,6 @@ const Home = () => {
             <div className="feature-container">
                 <div className="features">
                     <div className="feature-1-img"></div>
-                </div>
-                <div className="features"></div>
-                <div className="features"></div>
-                <div className="features"></div>
-                <div className="features"></div>
-                <div className="features"></div>
-                {/*<div className="feature-1">
-                    {/*<div className="feature-1-img"></div>
                     <div className="feature-1-text">
                         <h2>Take-Out Containers and To-Go Boxes</h2>
                         <p>With an array of sizes and styles available, deli and take-out containers allow your customers to bring home anything from produce to soups.</p>
@@ -45,9 +37,9 @@ const Home = () => {
                         <span>Plastic Microwaveable Take-Out Containers</span><br />
                         <span>Food Buckets / Chicken Buckets</span><br />
                         <span>Foil Take-Out Containers & Lids</span>
-    </div>
+                    </div>
                 </div>
-                <div className="feature-2">
+                <div className="features">
                     <div className="feature-2-img"></div>
                     <div className="feature-2-text">
                         <h2>Disposable Bags</h2>
@@ -57,10 +49,10 @@ const Home = () => {
                         <span>Food Grade Bags</span><br />
                         <span>Take-Out Cookie Bags</span><br />
                         <span>Grocery Bags</span>
-</div>
+                    </div>
                 </div>
-                <div className="feature-3">
-                    {/*<div className="feature-3-img"></div>
+                <div className="features">
+                    <div className="feature-3-img"></div>
                     <div className="feature-3-text">
                         <h2>Food Packaging Wrap</h2>
                         <p>Preserve and protect your deli items, bakery goodies, and fresh ingredients from spoiling with food packaging wrap.</p>
@@ -69,13 +61,11 @@ const Home = () => {
                         <span>Paper Food Wrap</span><br />
                         <span>Food Buckets / Chicken Buckets</span><br />
                         <span>Plastic Cling, Plastic Film, and Aluminum Foil Cutters & Holders</span>
-</div>
+                    </div>
                 </div>
-            </div>
-            <div className="feature-container-2">
-                <div className="feature-1">
-                    <div className="feature-1-img"></div>
-                    <div className="feature-1-text">
+                <div className="features">
+                    <div className="feature-4-img"></div>
+                    <div className="feature-4-text">
                         <h2>Disposable Food Boxes</h2>
                         <p>Whether you’re searching for pizza boxes, popcorn buckets, or candy packaging, we carry all the disposable food boxes you need.</p>
                         <span>Pizza Boxes and Accessories</span><br />
@@ -84,17 +74,17 @@ const Home = () => {
                         <span>Candy Boxes</span><br />
                     </div>
                 </div>
-                <div className="feature-2">
-                    <div className="feature-2-img"></div>
-                    <div className="feature-2-text">
+                <div className="features">
+                    <div className="feature-5-img"></div>
+                    <div className="feature-5-text">
                         <h2>Eco-Friendly</h2>
                         <p>Create an environmentally friendly takeout and to-go service by using eco-friendly containers.</p>
                         <span>Eco-Friendly, Biodegradable & Compostable Take-Out Containers</span><br />
                         <span>Paper Soup Cups and Bowls</span><br />
                     </div>
                 </div>
-                <div className="feature-3">
-                    <div className="feature-3-img"></div>
+                <div className="features">
+                    <div className="feature-6-img"></div>
                     <div className="feature-3-text">
                         <h2>Disposable Retail Packaging</h2>
                         <p>Make it easy for customers to transport, reheat, and enjoy fresh food with disposable retail packaging.</p>
@@ -103,7 +93,8 @@ const Home = () => {
                         <span>Cake Take-Out Containers</span><br />
                         <span>Disposable Paper and Plastic Bakeware</span>
                     </div>
-                </div>*/}
+                </div>
+                
             </div>
             <div className="other-product-header">
                 <p>Other products</p>
