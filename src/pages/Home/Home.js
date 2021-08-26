@@ -14,18 +14,29 @@ const Home = () => {
                     <div className="image5"></div>
                     <div className="image6"></div>
                 </div>
-                <div className="right-container"></div>
+                <div className="right-container">
+                    <h1 className="dispo">Disposable</h1>
+                    <div className="p-tags">
+                       <p className="p1">Commercial Restaurant Supplies & Equipment From Staurant</p>
+                       <p className="p2">Packaging Supplies and Deliver Take-Out Items with Disposable Food Packaging Supplies</p>
+                       <button className="high-quality">Get In Touch</button>
+                    </div>
+                </div>
             </div>
-            {/*<div className="side-container">
-                <h1>Disposable Food Packaging Supplies</h1>
-                <p>Package and Deliver Take-Out Items with Disposable Food Packaging Supplies</p>
-                <button className="high-quality">Get In Touch</button>
-               </div>*/}
+            
         </div>
         <div className="main-container">
             <div className="feature-container">
-                <div className="feature-1">
+                <div className="features">
                     <div className="feature-1-img"></div>
+                </div>
+                <div className="features"></div>
+                <div className="features"></div>
+                <div className="features"></div>
+                <div className="features"></div>
+                <div className="features"></div>
+                {/*<div className="feature-1">
+                    {/*<div className="feature-1-img"></div>
                     <div className="feature-1-text">
                         <h2>Take-Out Containers and To-Go Boxes</h2>
                         <p>With an array of sizes and styles available, deli and take-out containers allow your customers to bring home anything from produce to soups.</p>
@@ -34,7 +45,7 @@ const Home = () => {
                         <span>Plastic Microwaveable Take-Out Containers</span><br />
                         <span>Food Buckets / Chicken Buckets</span><br />
                         <span>Foil Take-Out Containers & Lids</span>
-                    </div>
+    </div>
                 </div>
                 <div className="feature-2">
                     <div className="feature-2-img"></div>
@@ -46,10 +57,10 @@ const Home = () => {
                         <span>Food Grade Bags</span><br />
                         <span>Take-Out Cookie Bags</span><br />
                         <span>Grocery Bags</span>
-                    </div>
+</div>
                 </div>
                 <div className="feature-3">
-                    <div className="feature-3-img"></div>
+                    {/*<div className="feature-3-img"></div>
                     <div className="feature-3-text">
                         <h2>Food Packaging Wrap</h2>
                         <p>Preserve and protect your deli items, bakery goodies, and fresh ingredients from spoiling with food packaging wrap.</p>
@@ -58,7 +69,7 @@ const Home = () => {
                         <span>Paper Food Wrap</span><br />
                         <span>Food Buckets / Chicken Buckets</span><br />
                         <span>Plastic Cling, Plastic Film, and Aluminum Foil Cutters & Holders</span>
-                    </div>
+</div>
                 </div>
             </div>
             <div className="feature-container-2">
@@ -92,7 +103,7 @@ const Home = () => {
                         <span>Cake Take-Out Containers</span><br />
                         <span>Disposable Paper and Plastic Bakeware</span>
                     </div>
-                </div>
+                </div>*/}
             </div>
             <div className="other-product-header">
                 <p>Other products</p>

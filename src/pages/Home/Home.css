@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 
 
 .Home-container {
     width: 100%;
     height: 100vh;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,79 +98,68 @@
     background-repeat: no-repeat;
 }
 .right-container {
-    border: 2px solid #000;
     width: 40%;
-    height: 100%;
-}
-
-
-.side-container {
+    height: 90%;
     background-color: rgb(121, 93, 57);
-    width: 40%;
-    height: 100vh;
-    position: absolute;
-    right: 0;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-container h1 {
     color: #fff;
-    padding: 10px 30px;
-    margin-top: 3rem;
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);   
+    font-weight: 800;
+    font-size: 45px;
 }
-.side-container h1 {
-    text-align: start;
-    margin-top: 15rem;
-}
-.side-container p {
-    text-align: start;
-    color: rgba(255, 255, 255, 0.808);
-    font-size: 16px;
-    margin-top: 1.5rem;
-}
+.right-container p {
+    color: #fff;
+} 
+
 .high-quality {
-    padding: 10px 40px;
+    padding: 7px 30px;
     border: none;
     outline: none;
-    margin-top: 2rem;
+    margin-top: .5rem;
     background-color: rgb(87, 66, 39) ;
     color: #fff;
     border-radius: 50px;
 }
 .main-container {
     width: 100%;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+    height: auto;
+    /*background-color: rgb(121, 93, 57);*/
     padding-top: 7rem;
     font-family: 'Poppins', sans-serif;
 }
 .feature-container{
-    /*border: 2px solid #000;*/
     width: 90%;
-    height: 80vh;
+    height: 1000px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
 }
-.feature-1 {
-    width: 370px;
-    height: 500px;
-}
-.feature-2 {
-    width: 370px;
-    height: 500px;
-}
-.feature-3 {
-    width: 370px;
-    height: 500px;
+.feature-container .features {
+    /*border: 2px solid rgb(6, 235, 25);*/
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(121, 93, 57, 0.44);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(121, 93, 57, 0.44);
+    box-shadow:         0px 0px 5px 0px rgba(121, 93, 57, 0.44);
+    background-color: rgb(121, 93, 57);
 }
 
-.feature-1 .feature-1-img {
+.features .feature-1-img {
     background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/10/takeout-food-service-take-out.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 45%;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .feature-1 .feature-1-text {
     padding: 20px 0 0 0;
@@ -240,10 +229,9 @@
     color: green;
 }
 
-/* feature container second roll */
+/* feature container second roll *
 
 .feature-container-2{
-    /*border: 2px solid #000;*/
     width: 90%;
     height: 80vh;
     margin: 3rem auto 0 auto;
@@ -344,7 +332,7 @@
     font-size: 14.5px;
     color: green;
 }
-
+*/
 
 /* other products */ 
 

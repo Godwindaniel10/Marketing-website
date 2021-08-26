@@ -44,10 +44,11 @@
 }
 .about-1 {
     width: 450px;
-    height: 280px;
+    height: 290px;
     padding: 30px;
     margin-top: -20rem;
     background-color: rgb(121, 93, 57);
+    border-radius: 10px;
 }
 .about-1 h1 {
     font-size: 22px;
