@@ -54,13 +54,13 @@ const Home = () => {
                 <div className="features">
                     <div className="feature-3-img"></div>
                     <div className="feature-3-text">
-                        <h2>Food Packaging Wrap</h2>
-                        <p>Preserve and protect your deli items, bakery goodies, and fresh ingredients from spoiling with food packaging wrap.</p>
-                        <span>Deli Wrap and Bakery Wrap</span><br />
-                        <span>Aluminum Foil Food Wrap</span><br />
-                        <span>Paper Food Wrap</span><br />
-                        <span>Food Buckets / Chicken Buckets</span><br />
-                        <span>Plastic Cling, Plastic Film, and Aluminum Foil Cutters & Holders</span>
+                        <h2>Plastic Disposables</h2>
+                        <p>Whether you're catering an event or offering take-out, our selection of disposable plastic dinnerware has what you need, from flatware to lids.</p>
+                        <span>Plastic Disposable Plates</span><br />
+                        <span>Plastic Cutlery / Utensils</span><br />
+                        <span>Plastic Cups and Lids</span><br />
+                        <span>Disposable Plastic Barware and Cups</span><br />
+                        <span>Straws & Stirrers</span>
                     </div>
                 </div>
                 <div className="features">
@@ -85,7 +85,29 @@ const Home = () => {
                 </div>
                 <div className="features">
                     <div className="feature-6-img"></div>
-                    <div className="feature-3-text">
+                    <div className="feature-6-text">
+                        <h2>Disposable Retail Packaging</h2>
+                        <p>Make it easy for customers to transport, reheat, and enjoy fresh food with disposable retail packaging.</p>
+                        <span>Coffee To Go / Beverage Bags</span><br />
+                        <span>Produce Containers and Packaging</span><br />
+                        <span>Cake Take-Out Containers</span><br />
+                        <span>Disposable Paper and Plastic Bakeware</span>
+                    </div>
+                </div>
+                <div className="features">
+                    <div className="feature-7-img"></div>
+                    <div className="feature-7-text">
+                        <h2>Disposable Retail Packaging</h2>
+                        <p>Make it easy for customers to transport, reheat, and enjoy fresh food with disposable retail packaging.</p>
+                        <span>Coffee To Go / Beverage Bags</span><br />
+                        <span>Produce Containers and Packaging</span><br />
+                        <span>Cake Take-Out Containers</span><br />
+                        <span>Disposable Paper and Plastic Bakeware</span>
+                    </div>
+                </div>
+                <div className="features">
+                    <div className="feature-8-img"></div>
+                    <div className="feature-8-text">
                         <h2>Disposable Retail Packaging</h2>
                         <p>Make it easy for customers to transport, reheat, and enjoy fresh food with disposable retail packaging.</p>
                         <span>Coffee To Go / Beverage Bags</span><br />
@@ -110,24 +132,24 @@ const Home = () => {
                        <div className="first-role">
                       
                             <div className="product-1">
-                                
+                               <h2 className="header">Lorem Ipsum</h2>
                             </div>
                             <div className="product-2">
-                            
+                               <h2 className="header">Lorem Ipsum</h2>
                             </div>
                             <div className="product-3">
-                            
+                               <h2 className="header">Lorem Ipsum</h2>
                              </div>
                         </div>
                         <div className="second-role">
                             <div className="product-4">
-                               
+                               <h2 className="header">Lorem Ipsum</h2>
                             </div>
                             <div className="product-5">
-                               
+                             <h2 className="header">Lorem Ipsum</h2>
                             </div>
                             <div className="product-6">
-                              
+                               <h2 className="header">Lorem Ipsum</h2>
                             </div>
                         </div>
                     </div>

@@ -141,8 +141,8 @@
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 .feature-container .features {
     /*border: 2px solid rgb(6, 235, 25);*/
@@ -162,7 +162,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 25px;
 }
 .features .feature-1-text {
@@ -191,7 +191,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 25px;
 }
 .features .feature-2-text {
@@ -214,12 +214,12 @@
 /* features 3 */
 
 .features .feature-3-img {
-    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/food-packaging-wrap.jpg');
+    background-image: url('https://cdn.xxl.thumbs.canstockphoto.com/plastic-disposable-tableware-on-wooden-table-studio-photo-stock-image_csp54625660.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 25px;
 }
 .features .feature-3-text {
@@ -246,7 +246,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 25px;
 }
 .features .feature-4-text {
@@ -273,7 +273,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 25px;
 }
 .features .feature-5-text {
@@ -301,7 +301,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 250px;
+    height: 200px;
     border-radius: 25px;
 }
 .features .feature-6-text {
@@ -316,6 +316,60 @@
     color: rgba(255, 255, 255, 0.747);
     
 }.features .feature-6-text span {
+    font-size: 14.5px;
+    color: rgb(0, 0, 0);
+}
+
+/* features 7 */
+
+.features .feature-7-img {
+    background-image: url('https://english.nna.jp/uploads/english_article_image/image/21716/show_image-1604462808845.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+}
+.features .feature-7-text {
+    padding: 20px 0 0 0;
+}
+.features .feature-7-text h2 {
+    font-size: 20px;
+    color: #fff;
+}
+.features .feature-7-text p {
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.747);
+    
+}.features .feature-7-text span {
+    font-size: 14.5px;
+    color: rgb(0, 0, 0);
+}
+
+/* features 8 */
+
+.features .feature-8-img {
+    background-image: url('https://english.nna.jp/uploads/english_article_image/image/21716/show_image-1604462808845.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-radius: 25px;
+}
+.features .feature-8-text {
+    padding: 20px 0 0 0;
+}
+.features .feature-8-text h2 {
+    font-size: 20px;
+    color: #fff;
+}
+.features .feature-8-text p {
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.747);
+    
+}.features .feature-8-text span {
     font-size: 14.5px;
     color: rgb(0, 0, 0);
 }
@@ -378,11 +432,30 @@
     height: 100%;
     text-align: center;
     background-color: #fff;
-    padding-top: 1.5rem;
     background-image: url('https://atlaslabels.com/wp-content/uploads/2013/09/6PackHalligan.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-indent: -9999px;
+    z-index: 1;
+}
+.product-1:hover {
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    color: black;
+    text-indent: 0;
+    z-index: 0;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header:hover {
+    background-color: rgb(255, 0, 0);
 }
 
 .product-2 {
@@ -390,22 +463,36 @@
     height: 100%;
     text-align: center;
     background-color: #fff;
-    padding-top: 1.5rem;
     background-image: url('https://m.media-amazon.com/images/I/41v4BHYoIqL._AC_SX466_.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-indent: -9999px;
 }
+.product-2:hover {
+    background-color: rgb(250, 93, 93);
+    cursor: pointer;
+    text-indent: 0;
+    z-index: 0;
+}
+
+
 .product-3 {
     width: 100%;
     height: 100%;
     text-align: center;
     background-color: #fff;
-    padding-top: 1.5rem;
     background-image: url('https://www.brenmarco.com/wp-content/uploads/2020/10/disposable-plastic-sanwich-container-260734-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-indent: -9999px;
+}
+.product-3:hover {
+    background-color: rgb(250, 93, 93);
+    cursor: pointer;
+    text-indent: 0;
+    z-index: 0;
 }
 .second-role {
     width: 100%;
@@ -417,33 +504,51 @@
     height: 100%;
     text-align: center;
     background-color: #fff;
-    padding-top: 1.5rem;
     background-image: url('https://cdnimg.webstaurantstore.com/images/products/large/88631/668826.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-indent: -9999px;
+}
+.product-4:hover {
+    background-color: rgb(250, 93, 93);
+    cursor: pointer;
+    text-indent: 0;
+    z-index: 0;
 }
 .product-5 {
     width: 100%;
     height: 100%;
     text-align: center;
     background-color: #fff;
-    padding-top: 1.5rem;
     background-image: url('https://www.brenmarco.com/wp-content/uploads/2020/10/rotisserie-chicken-takeout-container-260231.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-indent: -9999px;
+}
+.product-5:hover {
+    background-color: rgb(250, 93, 93);
+    cursor: pointer;
+    text-indent: 0;
+    z-index: 0;
 }
 .product-6 {
     width: 100%;
     height: 100%;
     text-align: center;
     background-color: #fff;
-    padding-top: 1.5rem;
     background-image: url('https://cdnimg.webstaurantstore.com/images/products/large/88631/668826.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-indent: -9999px;
+}
+.product-6:hover {
+    background-color: rgb(250, 93, 93);
+    cursor: pointer;
+    text-indent: 0;
+    z-index: 0;
 }
 
 
