@@ -174,11 +174,11 @@
     color: #fff;
 }
 .features .feature-1-text p {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgba(255, 255, 255, 0.685);
     
 }.features .feature-1-text span {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgb(0, 0, 0);
 }
 
@@ -202,11 +202,11 @@
     color: #fff;
 }
 .features .feature-2-text p {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgba(255, 255, 255, 0.685);
     
 }.features .feature-2-text span {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgb(0, 0, 0);
 }
 
@@ -230,11 +230,11 @@
     color: #fff;
 }
 .features .feature-3-text p {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgba(255, 255, 255, 0.685);
     
 }.features .feature-3-text span {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgb(0, 0, 0);
 }
 
@@ -257,11 +257,11 @@
     color: #fff;
 }
 .features .feature-4-text p {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgba(255, 255, 255, 0.685);
     
 }.features .feature-4-text span {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgb(0, 0, 0);
 }
 
@@ -284,11 +284,11 @@
     color: #fff;
 }
 .features .feature-5-text p {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgba(255, 255, 255, 0.685);
     
 }.features .feature-5-text span {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgb(0, 0, 0);
 }
 
@@ -312,11 +312,11 @@
     color: #fff;
 }
 .features .feature-6-text p {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgba(255, 255, 255, 0.747);
     
 }.features .feature-6-text span {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgb(0, 0, 0);
 }
 
@@ -339,11 +339,11 @@
     color: #fff;
 }
 .features .feature-7-text p {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgba(255, 255, 255, 0.747);
     
 }.features .feature-7-text span {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgb(0, 0, 0);
 }
 
@@ -366,11 +366,11 @@
     color: #fff;
 }
 .features .feature-8-text p {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgba(255, 255, 255, 0.747);
     
 }.features .feature-8-text span {
-    font-size: 14.5px;
+    font-size: 13.5px;
     color: rgb(0, 0, 0);
 }
 
@@ -552,7 +552,86 @@
 }
 
 
+/* second other products */
 
+.other-product-2-container {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    position: relative;
+}
+.other-product-2-container .product {
+    position: relative;
+}
+.other-product-2-container .product .product-img-1 {
+    background-image: url('https://www.webstaurantstore.com/uploads/seo_category/2021/6/stand-up.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 135px;
+    border-radius: 5px;
+}
+.other-product-2-container .product .product-img-2 {
+    background-image: url('https://www.webstaurantstore.com/uploads/seo_category/2020/9/e-tabletop-disposables.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 135px;
+    border-radius: 5px;
+}
+.other-product-2-container .product .product-img-3 {
+    background-image: url('https://www.webstaurantstore.com/uploads/seo_category/2020/9/e-janitorial-disposables.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 135px;
+    border-radius: 5px;
+}
+.other-product-2-container .product .product-img-4 {
+    background-image: url('https://www.webstaurantstore.com/uploads/seo_category/2021/4/1135344.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 135px;
+    border-radius: 5px;
+}
+.other-product-2-container .product .product-img-5 {
+    background-image: url('https://www.webstaurantstore.com/uploads/seo_category/2020/9/e-host-server-supplies.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 135px;
+    border-radius: 5px;
+}
+.other-product-2-container .product .product-img-6 {
+    background-image: url('https://www.webstaurantstore.com/uploads/seo_category/2020/9/e-disposable-party-supplies.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 135px;
+    border-radius: 5px;
+}
+.other-product-2-container .product p {
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0; 
+    margin: 0 auto;
+    left:50%; 
+    transform:translate( -50%); 
+    width: 100%;
+    text-align: center;
+    color: rgb(121, 93, 57);
+}
 
 
 

@@ -77,10 +77,12 @@ const Home = () => {
                 <div className="features">
                     <div className="feature-5-img"></div>
                     <div className="feature-5-text">
-                        <h2>Eco-Friendly</h2>
-                        <p>Create an environmentally friendly takeout and to-go service by using eco-friendly containers.</p>
+                        <h2>Eco-Friendly Disposables</h2>
+                        <p>Help the environment with our eco-friendly disposables. We carry everything from natural palm leaf plates to compostable plastic bags.</p>
+                        <span>Biodegradable and Compostable Dinnerware and Servingware</span><br />
                         <span>Eco-Friendly, Biodegradable & Compostable Take-Out Containers</span><br />
-                        <span>Paper Soup Cups and Bowls</span><br />
+                        <span>Biodegradable and Compostable Flatware and Utensils</span><br />
+                        <span>Biodegradable, Compostable Straws</span><br />
                     </div>
                 </div>
                 <div className="features">
@@ -108,12 +110,12 @@ const Home = () => {
                 <div className="features">
                     <div className="feature-8-img"></div>
                     <div className="feature-8-text">
-                        <h2>Disposable Retail Packaging</h2>
-                        <p>Make it easy for customers to transport, reheat, and enjoy fresh food with disposable retail packaging.</p>
-                        <span>Coffee To Go / Beverage Bags</span><br />
-                        <span>Produce Containers and Packaging</span><br />
-                        <span>Cake Take-Out Containers</span><br />
-                        <span>Disposable Paper and Plastic Bakeware</span>
+                        <h2>Paper Disposables</h2>
+                        <p>From paper plates to coffee filters, our paper disposables are sure to cover all of your establishment’s needs.</p>
+                        <span>Paper Cups and Lids</span><br />
+                        <span>Paper Napkins</span><br />
+                        <span>Paper Dinnerware</span><br />
+                        <span>Paper Soup Cups and Bowls</span>
                     </div>
                 </div>
                 
@@ -153,6 +155,33 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+            </div>
+
+            <div className="other-product-2-container">
+                <div className="product">
+                    <div className="product-img-1"></div>
+                    <p>Consumer Packaging</p>
+                </div>
+                <div className="product">
+                    <div className="product-img-2"></div>
+                    <p>Tabletop Disposables</p>
+                </div>
+                <div className="product">
+                    <div className="product-img-3"></div>
+                    <p>Janitorial Disposables</p>
+                </div>
+                <div className="product">
+                    <div className="product-img-4"></div>
+                    <p>Asian Restaurant Disposables</p>
+                </div>
+                <div className="product">
+                    <div className="product-img-5"></div>
+                    <p>Host And Server Supplies</p>
+                </div>
+                <div className="product">
+                    <div className="product-img-6"></div>
+                    <p>Disposable Party Supplies</p>
+                </div>
             </div>
 
             
