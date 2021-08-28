@@ -15,8 +15,8 @@ const about = () => {
                <div className="about-1">
                    <h1>What We Do</h1>
                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum iure quia illo? Perspiciatis, molestiae itaque, voluptate maiores ut ab odio vero, illum blanditiis consequuntur quia.
-                       <button className="high-quality">Get In Touch</button>
                    </p>
+                   <button className="high-quality">Get In Touch</button>
                </div>
                <div className="about-2">
                    <h1>Why We Do This</h1>

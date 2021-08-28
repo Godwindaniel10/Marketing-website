@@ -157,13 +157,14 @@
 /* features 1 */
 
 .features .feature-1-img {
-    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/10/takeout-food-service-take-out.jpg');
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/9/f-take-out-containers.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
     border-radius: 25px;
+    text-indent: -9999px;
 }
 .features .feature-1-text {
     padding: 20px 0 0 0;
@@ -180,6 +181,12 @@
 }.features .feature-1-text span {
     font-size: 13.5px;
     color: rgb(0, 0, 0);
+}
+.features .feature-1-img:hover {
+    background-color: rgb(250, 93, 93);
+    cursor: pointer;
+    text-indent: 0;
+    z-index: 0;
 }
 
 
@@ -214,7 +221,7 @@
 /* features 3 */
 
 .features .feature-3-img {
-    background-image: url('https://cdn.xxl.thumbs.canstockphoto.com/plastic-disposable-tableware-on-wooden-table-studio-photo-stock-image_csp54625660.jpg');
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/9/f-plastic-disposables.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,7 +275,7 @@
 /* features 5 */
 
 .features .feature-5-img {
-    background-image: url('https://i5.walmartimages.com/asr/11b42486-e431-4dee-8a1b-8d7f7d1f40f4.04f32b42a9c5e975d1316b9c6417dfc2.jpeg');
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/9/f-eco-friendly-disposables.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -296,7 +303,7 @@
 /* features 6 */
 
 .features .feature-6-img {
-    background-image: url('https://english.nna.jp/uploads/english_article_image/image/21716/show_image-1604462808845.jpg');
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/9/f-catering-disposables.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -323,7 +330,7 @@
 /* features 7 */
 
 .features .feature-7-img {
-    background-image: url('https://english.nna.jp/uploads/english_article_image/image/21716/show_image-1604462808845.jpg');
+    background-image: url('https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/9/f-disposable-food-packaging.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -374,9 +381,19 @@
     color: rgb(0, 0, 0);
 }
 
-
-
-
+.feature-img-hover-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: #fff;
+}
+.feature-img-hover-text:hover {
+    background-color: rgba(0, 0, 0, 0.404);
+    transition: all 500ms;
+}
 /* other products */ 
 
 .other-product-header p {

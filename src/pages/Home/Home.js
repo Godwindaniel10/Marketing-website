@@ -28,15 +28,17 @@ const Home = () => {
         <div className="main-container">
             <div className="feature-container">
                 <div className="features">
-                    <div className="feature-1-img"></div>
+                    <div className="feature-1-img">
+                        <div className="feature-img-hover-text"></div>
+                    </div>
                     <div className="feature-1-text">
-                        <h2>Take-Out Containers and To-Go Boxes</h2>
-                        <p>With an array of sizes and styles available, deli and take-out containers allow your customers to bring home anything from produce to soups.</p>
-                        <span>Deli Containers</span><br />
-                        <span>Paper Take-Out Boxes</span><br />
+                        <h2>Take-Out Containers</h2>
+                        <p>With these disposable take-out containers, we make it easy for your customers to take home anything from fruit trays to pasta salads.</p>
                         <span>Plastic Microwaveable Take-Out Containers</span><br />
-                        <span>Food Buckets / Chicken Buckets</span><br />
-                        <span>Foil Take-Out Containers & Lids</span>
+                        <span>Paper Take-Out Boxes</span><br />
+                        <span>Deli Containers</span><br />
+                        <span>Foil Take-Out Containers & Lids</span><br />
+                        <span>Souffle / Portion Cups & Lids</span>
                     </div>
                 </div>
                 <div className="features">
@@ -88,23 +90,24 @@ const Home = () => {
                 <div className="features">
                     <div className="feature-6-img"></div>
                     <div className="feature-6-text">
-                        <h2>Disposable Retail Packaging</h2>
-                        <p>Make it easy for customers to transport, reheat, and enjoy fresh food with disposable retail packaging.</p>
-                        <span>Coffee To Go / Beverage Bags</span><br />
-                        <span>Produce Containers and Packaging</span><br />
-                        <span>Cake Take-Out Containers</span><br />
-                        <span>Disposable Paper and Plastic Bakeware</span>
+                        <h2>Catering Disposables</h2>
+                        <p>MCreate an eye-catching presentation with our catering disposables, including items like disposable table covers, doilies, and skewers.</p>
+                        <span>Disposable Tablecloths & Runners</span><br />
+                        <span>Plastic Serving Utensils</span><br />
+                        <span>Disposable Serving and Catering Trays</span><br />
+                        <span>Catering and To Go Bowls</span><br />
+                        <span>Aluminum Foil Steam Table Pans & Lids</span>
                     </div>
                 </div>
                 <div className="features">
                     <div className="feature-7-img"></div>
                     <div className="feature-7-text">
-                        <h2>Disposable Retail Packaging</h2>
-                        <p>Make it easy for customers to transport, reheat, and enjoy fresh food with disposable retail packaging.</p>
-                        <span>Coffee To Go / Beverage Bags</span><br />
-                        <span>Produce Containers and Packaging</span><br />
-                        <span>Cake Take-Out Containers</span><br />
-                        <span>Disposable Paper and Plastic Bakeware</span>
+                        <h2>Disposable Food Packaging Supplies</h2>
+                        <p>Our disposable food packaging supplies include a wide variety of items like take-out boxes, plastic wrap, sandwich wrap paper, bags, and more.</p>
+                        <span>Paper Bags</span><br />
+                        <span>Plastic Bags</span><br />
+                        <span>Food Packaging Wrap</span><br />
+                        <span>Vacuum Packaging Machine Bags</span>
                     </div>
                 </div>
                 <div className="features">
