@@ -7,6 +7,10 @@ const Home = () => {
         <div className="Home-container">
             <div className="grid-container">
                 <div className="left-container">
+                    <div className="mobile-home-img">
+                       <div className="mobile-home-image1"></div>
+                       <div className="mobile-home-image2"></div>
+                    </div>
                     <div className="image1"></div>
                     <div className="image2"></div>
                     <div className="image3"></div>

@@ -8,8 +8,8 @@ import {
 
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import Service from './pages/Service-page/Service';
 import Contact from './pages/contact/Contact';
-import Product from './pages/product/Product';
 import Navbar from './components/Navbar/Navbar';
 
 
@@ -29,8 +29,8 @@ const App = () => {
                        <Route path="/contact" exact>
                           <Contact />
                        </Route>
-                       <Route path="/product" exact>
-                          <Product />
+                       <Route path="/service" exact>
+                          <Service/>
                        </Route>
 
                        <Redirect to="/" />

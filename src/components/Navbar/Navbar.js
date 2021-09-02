@@ -44,10 +44,10 @@ const Navbar = () => {
   }, []);
 
   return (
+    
   <nav className="navbar navbar-expand-lg navbar-mainbg">
     
       
-    
     
       <button 
         className="navbar-toggler"
