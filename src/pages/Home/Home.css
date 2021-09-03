@@ -818,6 +818,7 @@
     .other-product-container {
         width: 100%;
         margin-top: 3rem;
+        display: none;
     }
     .first-role {
         display: grid;
