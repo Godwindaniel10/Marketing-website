@@ -163,7 +163,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
     text-indent: -9999px;
 }
 .features .feature-1-text {
@@ -199,7 +199,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .features .feature-2-text {
     padding: 20px 0 0 0;
@@ -227,7 +227,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .features .feature-3-text {
     padding: 20px 0 0 0;
@@ -254,7 +254,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .features .feature-4-text {
     padding: 20px 0 0 0;
@@ -281,7 +281,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .features .feature-5-text {
     padding: 20px 0 0 0;
@@ -309,7 +309,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .features .feature-6-text {
     padding: 20px 0 0 0;
@@ -336,7 +336,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .features .feature-7-text {
     padding: 20px 0 0 0;
@@ -363,7 +363,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .features .feature-8-text {
     padding: 20px 0 0 0;
@@ -802,6 +802,7 @@
         grid-template-columns: 1fr;
         height: auto;
         margin-top: 1.5rem;
+        margin-bottom: 2rem;
     }
      .more-info-container {
         width: 100%;
@@ -837,9 +838,70 @@
     .feature-container .features {
         border-radius: 15px;
     }
-    .features .feature-1-img, .features .feature-2-img, .features .feature-3-img, .features .feature-4-img, .features .feature-5-img, .features .feature-6-img{
+    .features .feature-1-img, .features .feature-2-img, .features .feature-3-img, .features .feature-4-img, .features .feature-5-img, .features .feature-6-img, .features .feature-7-img, .features .feature-8-img{
         border-radius: 15px;
     }
+    .other-product-2-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        position: relative;
+    }
+    .other-product-2-container .product .product-img-1 {
+        border-radius: 10px;
+        background-image: 
+        linear-gradient(
+            rgba(129, 115, 115, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),url('https://www.webstaurantstore.com/uploads/seo_category/2021/6/stand-up.jpg');
+    }
+    .other-product-2-container .product .product-img-2 {
+        border-radius: 10px;
+        background-image: 
+        linear-gradient(
+            rgba(129, 115, 115, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),url('https://www.webstaurantstore.com/uploads/seo_category/2020/9/e-tabletop-disposables.jpg');
+    }
+    .other-product-2-container .product .product-img-3 {
+        border-radius: 10px;
+        background-image: 
+        linear-gradient(
+            rgba(129, 115, 115, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),url('https://www.webstaurantstore.com/uploads/seo_category/2020/9/e-janitorial-disposables.jpg');
+    }
+    .other-product-2-container .product .product-img-4 {
+        border-radius: 10px;
+        background-image: 
+        linear-gradient(
+            rgba(129, 115, 115, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),url('https://www.webstaurantstore.com/uploads/seo_category/2021/4/1135344.png');
+    }
+    .other-product-2-container .product .product-img-5 {
+        border-radius: 10px;
+        background-image: 
+        linear-gradient(
+            rgba(129, 115, 115, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),url('https://www.webstaurantstore.com/uploads/seo_category/2020/9/e-host-server-supplies.jpg');
+    }
+    .other-product-2-container .product .product-img-6 {
+        border-radius: 10px;
+        background-image: 
+        linear-gradient(
+            rgba(129, 115, 115, 0.45), 
+            rgba(0, 0, 0, 0.45)
+          ),url('https://www.webstaurantstore.com/uploads/seo_category/2020/9/e-disposable-party-supplies.jpg');
+    }
+    .other-product-2-container .product p {
+        color: #fff;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+
+
 
 
 }
