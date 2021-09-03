@@ -142,7 +142,7 @@
     font-family: 'Poppins', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 40px;
 }
 .feature-container .features {
     /*border: 2px solid rgb(6, 235, 25);*/
@@ -151,7 +151,6 @@
     -webkit-box-shadow: 0px 0px 5px 0px rgba(121, 93, 57, 0.44);
     -moz-box-shadow:    0px 0px 5px 0px rgba(121, 93, 57, 0.44);
     box-shadow:         0px 0px 5px 0px rgba(121, 93, 57, 0.44);
-    background-color: rgb(121, 93, 57);
 }
 
 /* features 1 */
@@ -168,19 +167,20 @@
 }
 .features .feature-1-text {
     padding: 20px 0 0 0;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .features .feature-1-text h2 {
     font-size: 20px;
-    color: #fff;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1rem;
 }
 .features .feature-1-text p {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.685);
+    color: rgba(36, 36, 36, 0.842);
     
 }.features .feature-1-text span {
     font-size: 13.5px;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 74, 47);
 }
 .features .feature-1-img:hover {
     background-color: rgb(250, 93, 93);
@@ -206,15 +206,16 @@
 }
 .features .feature-2-text h2 {
     font-size: 20px;    
-    color: #fff;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1rem;
 }
 .features .feature-2-text p {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.685);
+    color: rgba(36, 36, 36, 0.842);
     
 }.features .feature-2-text span {
     font-size: 13.5px;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 74, 47);
 }
 
 
@@ -234,15 +235,16 @@
 }
 .features .feature-3-text h2 {
     font-size: 20px;
-    color: #fff;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1rem;
 }
 .features .feature-3-text p {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.685);
+    color: rgba(36, 36, 36, 0.842);
     
 }.features .feature-3-text span {
     font-size: 13.5px;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 74, 47);
 }
 
 /* features 4 */
@@ -261,15 +263,16 @@
 }
 .features .feature-4-text h2 {
     font-size: 20px;
-    color: #fff;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1rem;
 }
 .features .feature-4-text p {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.685);
+    color: rgba(36, 36, 36, 0.842);
     
 }.features .feature-4-text span {
     font-size: 13.5px;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 74, 47);
 }
 
 /* features 5 */
@@ -288,15 +291,16 @@
 }
 .features .feature-5-text h2 {
     font-size: 20px;
-    color: #fff;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1rem;
 }
 .features .feature-5-text p {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.685);
+    color: rgba(36, 36, 36, 0.842);
     
 }.features .feature-5-text span {
     font-size: 13.5px;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 74, 47);
 }
 
 
@@ -316,15 +320,16 @@
 }
 .features .feature-6-text h2 {
     font-size: 20px;
-    color: #fff;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1rem;
 }
 .features .feature-6-text p {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.747);
+    color: rgba(36, 36, 36, 0.842);
     
 }.features .feature-6-text span {
     font-size: 13.5px;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 74, 47);
 }
 
 /* features 7 */
@@ -343,15 +348,16 @@
 }
 .features .feature-7-text h2 {
     font-size: 20px;
-    color: #fff;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1rem;
 }
 .features .feature-7-text p {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.747);
+    color: rgba(36, 36, 36, 0.842);
     
 }.features .feature-7-text span {
     font-size: 13.5px;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 74, 47);
 }
 
 /* features 8 */
@@ -370,15 +376,16 @@
 }
 .features .feature-8-text h2 {
     font-size: 20px;
-    color: #fff;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1rem;
 }
 .features .feature-8-text p {
     font-size: 13.5px;
-    color: rgba(255, 255, 255, 0.747);
+    color: rgba(36, 36, 36, 0.842);
     
 }.features .feature-8-text span {
     font-size: 13.5px;
-    color: rgb(0, 0, 0);
+    color: rgb(95, 74, 47);
 }
 
 .feature-img-hover-text {

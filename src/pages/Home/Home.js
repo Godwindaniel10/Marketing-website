@@ -1,7 +1,12 @@
 import React from 'react';
 import './Home.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Home = () => {
+   
     return (
         <>
         <div className="Home-container">
@@ -31,7 +36,8 @@ const Home = () => {
         </div>
         <div className="main-container">
             <div className="feature-container">
-                <div className="features">
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="features">
                     <div className="feature-1-img">
                         <div className="feature-img-hover-text"></div>
                     </div>
@@ -45,7 +51,8 @@ const Home = () => {
                         <span>Souffle / Portion Cups & Lids</span>
                     </div>
                 </div>
-                <div className="features">
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="features">
                     <div className="feature-2-img"></div>
                     <div className="feature-2-text">
                         <h2>Disposable Bags</h2>
@@ -57,7 +64,8 @@ const Home = () => {
                         <span>Grocery Bags</span>
                     </div>
                 </div>
-                <div className="features">
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="features">
                     <div className="feature-3-img"></div>
                     <div className="feature-3-text">
                         <h2>Plastic Disposables</h2>
@@ -69,7 +77,9 @@ const Home = () => {
                         <span>Straws & Stirrers</span>
                     </div>
                 </div>
-                <div className="features">
+
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="features">
                     <div className="feature-4-img"></div>
                     <div className="feature-4-text">
                         <h2>Disposable Food Boxes</h2>
@@ -80,7 +90,9 @@ const Home = () => {
                         <span>Candy Boxes</span><br />
                     </div>
                 </div>
-                <div className="features">
+
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="features">
                     <div className="feature-5-img"></div>
                     <div className="feature-5-text">
                         <h2>Eco-Friendly Disposables</h2>
@@ -91,7 +103,8 @@ const Home = () => {
                         <span>Biodegradable, Compostable Straws</span><br />
                     </div>
                 </div>
-                <div className="features">
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="features">
                     <div className="feature-6-img"></div>
                     <div className="feature-6-text">
                         <h2>Catering Disposables</h2>
@@ -103,7 +116,8 @@ const Home = () => {
                         <span>Aluminum Foil Steam Table Pans & Lids</span>
                     </div>
                 </div>
-                <div className="features">
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="features">
                     <div className="feature-7-img"></div>
                     <div className="feature-7-text">
                         <h2>Disposable Food Packaging Supplies</h2>
@@ -114,7 +128,8 @@ const Home = () => {
                         <span>Vacuum Packaging Machine Bags</span>
                     </div>
                 </div>
-                <div className="features">
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" className="features">
                     <div className="feature-8-img"></div>
                     <div className="feature-8-text">
                         <h2>Paper Disposables</h2>
