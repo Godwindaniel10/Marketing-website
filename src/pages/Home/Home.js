@@ -181,27 +181,27 @@ const Home = () => {
 
             <div className="other-product-2-container">
                 <div className="product">
-                    <div className="product-img-1"></div>
+                    <div data-aos="flip-down" className="product-img-1"></div>
                     <p>Consumer Packaging</p>
                 </div>
                 <div className="product">
-                    <div className="product-img-2"></div>
+                    <div data-aos="flip-down" className="product-img-2"></div>
                     <p>Tabletop Disposables</p>
                 </div>
                 <div className="product">
-                    <div className="product-img-3"></div>
+                    <div data-aos="flip-down" className="product-img-3"></div>
                     <p>Janitorial Disposables</p>
                 </div>
                 <div className="product">
-                    <div className="product-img-4"></div>
+                    <div data-aos="flip-down" className="product-img-4"></div>
                     <p>Asian Restaurant Disposables</p>
                 </div>
                 <div className="product">
-                    <div className="product-img-5"></div>
+                    <div data-aos="flip-down" className="product-img-5"></div>
                     <p>Host And Server Supplies</p>
                 </div>
                 <div className="product">
-                    <div className="product-img-6"></div>
+                    <div data-aos="flip-down" className="product-img-6"></div>
                     <p>Disposable Party Supplies</p>
                 </div>
             </div>
@@ -240,7 +240,7 @@ const Home = () => {
                   </div>
                </div>
                <p className="copyright">Copyright © 2021 Staurant. All rights reserved.</p>
-            </div>
+    </div>
         </div>
        </>
    

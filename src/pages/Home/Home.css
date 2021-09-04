@@ -665,7 +665,7 @@
 
 .footer-container {
     width: 100%;
-    height: 55vh;
+    height: 100%;
     background-color: #000;
     margin-top: 0;
 }
@@ -908,15 +908,11 @@
         margin-bottom: 2rem;
         width: 90%;
     }
-    .footer-container {
-        height: 100%;
-        background-color: #000;
-    }
+    
     .footer-container-2 {
         display: grid;
         grid-template-columns: 1fr;
-        height: auto;
-        background-color: #000;
+        height: 100vh;
         width: 100%;
     }
 
