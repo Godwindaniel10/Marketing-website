@@ -27,7 +27,7 @@ const about = () => {
           
         </div>
         <div className="footer-container">
-               <div className="footer-container-2">
+            <div className="footer-container-2">
                   <div className="services">
                       <h3>Services</h3>
                       <p>Food Service Design</p>

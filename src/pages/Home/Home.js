@@ -206,14 +206,10 @@ const Home = () => {
                 </div>
             </div>
 
-            
-
-
-
-
-
+        
+            </div>
             <div className="footer-container">
-               <div className="footer-container-2">
+            <div className="footer-container-2">*
                   <div className="services">
                       <h3>Services</h3>
                       <p>Food Service Design</p>
@@ -240,8 +236,9 @@ const Home = () => {
                   </div>
                </div>
                <p className="copyright">Copyright © 2021 Staurant. All rights reserved.</p>
-    </div>
-        </div>
+            </div>
+
+           
        </>
    
     )
