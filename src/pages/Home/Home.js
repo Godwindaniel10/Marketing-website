@@ -10,12 +10,32 @@ const Home = () => {
     return (
         <>
         <div className="Home-container">
+            <div className="mobile-home-container">
+       <marquee behavior="alternate" direction="left" scrollamount="8.4">
+        <div className="images-container">
+           <div className="image-1"></div>
+           <div className="image-2"></div>
+           <div className="image-3"></div>
+           <div className="image-4"></div>
+           <div className="image-5"></div>
+           <div className="image-6"></div>
+           <div className="image-7"></div>
+           <div className="image-8"></div>
+           <div className="image-9"></div>
+           <div className="image-10"></div>
+         </div>
+       </marquee>
+       <div className="right-container-mobile">
+                    <h1 className="dispo">Disposable</h1>
+                    <div className="p-tags">
+                       <p className="p1">Commercial Restaurant Supplies & Equipment From Staurant</p>
+                       <p className="p2">Packaging Supplies and Deliver Take-Out Items with Disposable Food Packaging Supplies</p>
+                       <button className="high-quality">Get In Touch</button>
+                    </div>
+                </div>
+            </div>
             <div className="grid-container">
                 <div className="left-container">
-                    <div className="mobile-home-img">
-                       <div className="mobile-home-image1"></div>
-                       <div className="mobile-home-image2"></div>
-                    </div>
                     <div className="image1"></div>
                     <div className="image2"></div>
                     <div className="image3"></div>

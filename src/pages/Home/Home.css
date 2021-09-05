@@ -10,6 +10,9 @@
     justify-content: center;
     align-items: center;
 }
+.mobile-home-container {
+    display: none;
+}
 .grid-container {
     width: 90%;
     height: 465.5px;
@@ -742,56 +745,161 @@
 @media only screen and (max-width: 600px) {
 
     .Home-container {
-        border: 2px solid #000;
-        padding: 0 1.5rem;
         display: block;
+        height: auto;
     }
+    .mobile-home-container {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .mobile-home-container .images-container {
+        display: inline-flex;
+        margin-top: 2rem;
+    }
+    .images-container .image-1 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/takeout-containers-and-togo-boxes.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-2 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://english.nna.jp/uploads/english_article_image/image/21716/show_image-1604462808845.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-3 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://lh3.googleusercontent.com/proxy/scd4FBTpB2D8Sxzc-dU9rqc4parMkwbRsWAfMIb0l9xdIRRsUrO4ScFoWkQHzZ5WQ1wfpo0XKPkFKYFmi8IuF_NxbzUkkKvZCb0EXkKxW7GxNGD_SL6gtcYpknIajiKnqCQubh_eBQLaN8IWNWROmLGcQVg3eus");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-4 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/disposable-retail-packaging.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-5 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://m.media-amazon.com/images/I/91qDQKhlswL._SL1500_.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-6 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/takeout-containers-and-togo-boxes.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-7 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://english.nna.jp/uploads/english_article_image/image/21716/show_image-1604462808845.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-8 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://lh3.googleusercontent.com/proxy/scd4FBTpB2D8Sxzc-dU9rqc4parMkwbRsWAfMIb0l9xdIRRsUrO4ScFoWkQHzZ5WQ1wfpo0XKPkFKYFmi8IuF_NxbzUkkKvZCb0EXkKxW7GxNGD_SL6gtcYpknIajiKnqCQubh_eBQLaN8IWNWROmLGcQVg3eus");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-9 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://cdnimg.webstaurantstore.com/uploads/seo_category/2020/11/disposable-retail-packaging.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+      .images-container .image-10 {
+        width: 170px;
+        height: 170px;
+        background-image: url("https://m.media-amazon.com/images/I/91qDQKhlswL._SL1500_.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 10px;
+        border: 10px solid rgb(121, 93, 57);
+        border-radius: 50%;
+      }
+
+
+
     .left-container .image1, .image2, .image3 .image5, .image4, .image6{
         display: none;
     }
     .left-container {
         border: 2px solid rgb(21, 0, 207);
         width: 100%;
+        display: none;
     }
-    .left-container .mobile-home-img {
-        width: 100%;
-        border: 2px solid rgb(41, 207, 0);
-        display: flex;
-    }
-    .left-container .mobile-home-img .mobile-home-image1 {
-        width: 100%;
-        height: 150px;
-        border: 2px solid rgb(0, 0, 0);
-    }
-    .left-container .mobile-home-img .mobile-home-image2 {
-        width: 100%;
-        height: 150px;
-        border: 2px solid rgb(0, 0, 0);
-    }
+    
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
         border: 2px solid rgb(253, 0, 0);
         width: 100%;
+        display: none;
     }
-    .right-container {
+    .right-container-mobile {
         width: 100%;
+        height: auto;
+        background-color: rgb(121, 93, 57);
+        padding: 50px 30px;
     }
-    .right-container h1 {
-        color: #fff;
-        -webkit-transform: rotate(-90deg); 
-        -moz-transform: rotate(-90deg);   
-        font-weight: 800;
-        font-size: 45px;
-        display: none;
+    .right-container-mobile h1 {
+        color: #fff;   
+        font-weight: 600;
+        font-size: 35px;
     }
-    .right-container p {
+    .right-container-mobile p {
         color: #fff;
-        display: none;
     } 
-    .high-quality {
-        display: none;
-    }
     .feature-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -909,6 +1017,10 @@
         margin-bottom: 2rem;
         width: 90%;
     }
+    
+
+
+
     .footer-container-2 {
         display: grid;
         grid-template-columns: 1fr;
