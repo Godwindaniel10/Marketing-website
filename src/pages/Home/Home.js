@@ -29,7 +29,7 @@ const Home = () => {
        <div className="right-container-mobile">
                     <h1 className="dispo">Disposable</h1>
                     <div className="p-tags">
-                       <p className="p1">Commercial Restaurant Supplies & Equipment From Staurant</p>
+                       <p className="p1">Commercial Restaurant Supplies & Equipment From Staurant.</p>
                        <p className="p2">Packaging Supplies and Deliver Take-Out Items with Disposable Food Packaging Supplies</p>
                        <button className="high-quality">Get In Touch</button>
                     </div>
