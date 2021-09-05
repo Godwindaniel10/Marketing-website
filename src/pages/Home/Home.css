@@ -902,6 +902,9 @@
     .right-container-mobile p {
         color: #fff;
     } 
+    .high-quality {
+        padding: 12px 30px;
+    }
     .feature-container {
         display: grid;
         grid-template-columns: 1fr;
