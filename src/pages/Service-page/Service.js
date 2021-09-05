@@ -1,13 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './service.css';
+
 
 const service = () => {
     return (
         <div className="service-container">
-              <p style={{textAlign:"center"}}>
-              <Link to="/">Go to Home </Link>
-              </p>
+              <p style={{textAlign:"center", marginTop: "12rem"}}>
+             Oooops , sorry { "This Page is under construction" } </p>
         </div>
     )
 }
