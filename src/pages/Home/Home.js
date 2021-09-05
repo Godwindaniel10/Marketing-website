@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-distracting-elements */
 import React from 'react';
 import './Home.css';
 import AOS from 'aos';
